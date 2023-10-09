@@ -76,13 +76,12 @@ main{
         }
     }
     .linux-box1{
-        background-color: rgb(59, 59, 57);
-        width: 100%;
+        background: linear-gradient(200deg, rgba(0,0,0,1) 0%, rgba(156,156,156,1) 100%);        width: 100%;
         height: 450px;
         margin-top: 50px;
 
         .title-linux{
-            background-color: rgba(187, 167, 145, 0.822);
+         
             padding-top: 15px;
             color: rgb(255, 255, 255);
            

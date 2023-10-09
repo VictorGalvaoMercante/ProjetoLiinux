@@ -26,14 +26,15 @@
     .box2{
         width: 100%;
 
-        background-color: rgb(59, 59, 57);
-        .textolinux{
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(156,156,156,1) 100%);        .textolinux{
             height: 450px;
             font-size: 18pt;
+            width: 900px;
             font-family: 'AR One Sans';
             text-align: center;
             padding-top: 100px;
             color: white;
+            margin-left: 500px;
         }
     }
 

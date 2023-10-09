@@ -2,14 +2,18 @@
     background-image: url(./.././../src/img/background3.jpg);
     background-size: cover;
     background-attachment: fixed;
+
+    
     .textArquivos{
         text-align: center;
         width: 900px;
         font-size: 18pt;
         margin-left: 500px;
-        padding-top: 100px;
+        margin-top: 100px;
         color: white;
         font-family: 'AR One Sans';
+        background-color: rgba(0, 0, 0, 0.534);
+        margin-bottom: 0;
         
 
     }
@@ -18,5 +22,10 @@
         text-align: center;
         margin-top: 50px;
         
+    }
+
+    .textoarquivos{
+        background: linear-gradient(300deg, rgba(0,0,0,1) 0%, rgba(156,156,156,1) 100%);        
+        height: 450px;
     }
 }

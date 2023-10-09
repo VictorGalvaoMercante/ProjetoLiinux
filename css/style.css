@@ -118,13 +118,12 @@ main {
   height: 200px;
 }
 .containerMain .linux-box1 {
-  background-color: rgb(59, 59, 57);
+  background: linear-gradient(200deg, rgb(0, 0, 0) 0%, rgb(156, 156, 156) 100%);
   width: 100%;
   height: 450px;
   margin-top: 50px;
 }
 .containerMain .linux-box1 .title-linux {
-  background-color: rgba(187, 167, 145, 0.822);
   padding-top: 15px;
   color: rgb(255, 255, 255);
 }
@@ -156,15 +155,17 @@ main {
 }
 #licenca-container .box2 {
   width: 100%;
-  background-color: rgb(59, 59, 57);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(156, 156, 156) 100%);
 }
 #licenca-container .box2 .textolinux {
   height: 450px;
   font-size: 18pt;
+  width: 900px;
   font-family: "AR One Sans";
   text-align: center;
   padding-top: 100px;
   color: white;
+  margin-left: 500px;
 }
 
 .container-arquivos {
@@ -177,14 +178,20 @@ main {
   width: 900px;
   font-size: 18pt;
   margin-left: 500px;
-  padding-top: 100px;
+  margin-top: 100px;
   color: white;
   font-family: "AR One Sans";
+  background-color: rgba(0, 0, 0, 0.534);
+  margin-bottom: 0;
 }
 .container-arquivos .video2 {
   width: 100%;
   text-align: center;
   margin-top: 50px;
+}
+.container-arquivos .textoarquivos {
+  background: linear-gradient(300deg, rgb(0, 0, 0) 0%, rgb(156, 156, 156) 100%);
+  height: 450px;
 }
 
 /*# sourceMappingURL=style.css.map */
