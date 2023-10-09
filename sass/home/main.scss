@@ -1,0 +1,104 @@
+main{
+    padding-top: 100px;
+}
+
+.containerMain{
+    margin-bottom: 0;
+   #linuxText{
+   background-color: white;
+    color: rgb(0, 0, 0);
+  
+   }
+    h1{
+        width: 100%;
+        color: rgba(255, 255, 255, 0.808);
+        margin-top: 30px;
+        text-align: center;
+        font-size: 60pt;
+        height: 70px;
+
+        
+        
+    }
+    #title1{
+        animation: go-back-title 2s alternate ;
+        
+    }
+    @keyframes go-back-title{
+        from{
+            transform: translatey(-700px);
+        }
+        to{
+            transform: translatey(0px);
+        }
+    }
+    .texto{
+        
+       
+        margin-top: 40px;
+        
+        width: 900px;
+        margin-left: 500px;
+        text-align: center;
+        font-family: 'Quarantine BRK', sans-serif;
+                                                
+        p{
+           
+            font-size: 26pt;
+        }
+
+    }
+
+    .box-fotos{
+        
+        width: 900px;
+        margin-left: 500px;
+        margin-top: 20px;
+        line-height: 30px;
+        margin-bottom: 100px;
+       
+        
+        ul{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+
+            list-style: none;
+        }
+
+        .imglinux{ 
+            text-align: center;
+           
+            img{
+              width: 350px;
+              height: 200px;
+            }
+            
+        }
+    }
+    .linux-box1{
+        background-color: rgb(59, 59, 57);
+        width: 100%;
+        height: 450px;
+        margin-top: 50px;
+
+        .title-linux{
+            background-color: rgba(187, 167, 145, 0.822);
+            padding-top: 15px;
+            color: rgb(255, 255, 255);
+           
+           
+        }
+        .texto.linux{
+            font-size: 18pt;
+            width: 1350px;
+            margin-left: 300px;
+            color: rgb(255, 255, 255);
+          
+            font-family: 'AR One Sans';
+                                                
+           
+           
+        }
+    }
+
+}
