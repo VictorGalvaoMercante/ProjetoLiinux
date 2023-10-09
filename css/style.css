@@ -148,13 +148,25 @@ main {
   margin-top: 260px;
   height: 500px;
   width: 900px;
-  margin-left: 100px;
+  margin-left: 101px;
 }
 #licenca-container .video1 {
   display: flex;
   position: absolute;
   top: 1600px;
   right: 100px;
+}
+#licenca-container .box2 {
+  width: 100%;
+  background-color: rgb(59, 59, 57);
+}
+#licenca-container .box2 .textolinux {
+  height: 450px;
+  font-size: 18pt;
+  font-family: "AR One Sans";
+  text-align: center;
+  padding-top: 100px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
